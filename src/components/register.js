@@ -76,6 +76,14 @@ export class Register extends React.Component {
                 placeholder="password"
               />
             </div>
+            <label> Profession : 
+            <select>
+            <option value="">Choose below</option>
+  <option value="teacher">Teacher</option>
+  <option value="engineer">Engineer</option>
+  <option value="housewife">Housewife</option>
+  <option value="other">Others</option>
+</select></label>
           </div>
         </div>
         <div className="footer">
